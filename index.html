@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sent" id="sent">
+    <h2>Message Sent!</h2>
+    <p>Thanks for completing the form. we'll be in touch soon!</p>
+  </div>
+  <div class="form">
+    <form>
+      <h1>Contact Us</h1>
+      <br>
+      <br>
+      <div class="cont">
+        <div class="leftcont">
+          <label for="" class="first">First Name<span class="required">*</span></label><br>
+          <input class="end" type="text" required>
+        </div>
+        <div class="leftcont">
+          <label for="" class="first">Last Name<span class="required">*</span></label><br>
+          <input type="text" class="end1" required>
+        </div>
+      </div>
+      <!-- <label for="f_name" >First Name<span class="required">*</span></label>
+      <label for="f_name" class="last">Last Name <span class="required">*</span></label><br>
+      <div class="center">
+        <input type="text">
+
+        <input type="text">
+      </div> -->
+      <br>
+      <div class="email">
+        <label for="" class="e">Email Address <span class="required">*</span></label><br>
+        <input class="email-input" type="email">
+      </div>
+
+      <label for="f_name" class="type">Query Type<span class="required">*</span></label><br>
+      <div class="query">
+        <div class="enquiry">
+          <input type="checkbox" name="" id="enq" required>
+          <label for="enq" class="general">General Enquiry</label>
+        </div>
+        <div class="support">
+          <input type="checkbox" name="" id="sup" required>
+          <label for="sup" class="sup">Support</label>
+        </div>
+      </div>
+      <br>
+      <label for="" class="message-label">Message<span class="required">*</span></label><br>
+      <input type="text" class="message-input" required>
+      <br>
+      <div class="consent">
+        <input type="checkbox" name="" id="con" required>
+        <label for="con">I consent to being contacted by the team<span class="required">*</span></label>
+      </div>
+      <br>
+      <div class="butt">
+        <button type="submit" id="Btn">Submit</button>
+      </div>
+
+    </form>
+  </div>
+  <!-- 
+  Contact Us
+
+  First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon!
+   -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Badmus Qudus Ayomide</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
